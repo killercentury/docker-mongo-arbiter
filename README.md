@@ -1,4 +1,4 @@
-# Mongo Arbiter Docker Image
+# MongoDB Arbiter Docker Image
 
 This image is mainly based on the offical [MongoDB Docker image](https://registry.hub.docker.com/_/mongo/) with only a few changes required to run an arbiter in the replica set.
 
@@ -16,7 +16,7 @@ Changes:
 docker create --name mongo-arbiter-data -v /data/arb busybox
 ```
 
-### Launch a Mongo arbiter
+### Launch a MongoDB arbiter
 
 (Following command assumes that you use a replica set called "rs0".)
 
